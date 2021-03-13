@@ -15,6 +15,12 @@ Print the sum of all numbers.
 				{101, 108,202}
 		};
 		int sum=0;
+		for(int[] n:numbers) {
+			for(int numb:n) {
+				sum=sum+numb;
+			}
+		}
+		System.out.println(sum);
 		
 	}
 	

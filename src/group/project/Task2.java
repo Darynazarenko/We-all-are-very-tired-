@@ -13,6 +13,16 @@ public class Task2 {
 				{23,56,78,90},
 				{100,34,5,78}
 		};
+		for(int i=0; i<numbers.length; i++) {
+			for(int j=0; j<numbers[i].length;j++) {
+				if(numbers[i][j]%2==0 ) {
+					System.out.print(numbers[i][j]+" ");
+					
+
+				}
+				System.out.println();
+			}
+		}
 		
 	}
 
