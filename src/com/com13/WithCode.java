@@ -1,0 +1,26 @@
+package com.com13;
+
+public class WithCode {
+
+	public static void main(String[] args) {
+		int num1=10;
+		int num2=-1;
+		int num3=0;
+		chekNumbers(num1);
+		chekNumbers(num2);
+		chekNumbers(num3);
+		
+	
+	}
+	public static void chekNumbers(int num) {
+		if(num>0) {
+			System.out.println(num+" is greater than 0");
+		}else if(num>0) {
+			System.out.println(num +" is less than 0");
+		}else {
+			System.out.println(num+" is 0");
+		}
+		
+	}
+
+}
